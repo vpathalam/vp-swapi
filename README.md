@@ -29,5 +29,5 @@ Components : contains App.js React components, which are Cell, Films, Invalid, P
     Utils: contains supplementary files such as Background, Header, Axios request, and Loader files
 
 Please refer to swapi.co documentation for further information about the retrieved data: https://swapi.co/documentation
-This can either be started using npm start, or with the given Dockerfile
+This can be started using npm start (npm install -> npm start)
 Enjoy!
