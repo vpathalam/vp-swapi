@@ -17,7 +17,8 @@ Information about:
     src : contains src files for the application
   
     App : contains App.js main file and related scss + crash test
-Components : contains App.js React components, which are Cell, Films, Invalid, People, Planets, Species, Starships, Vehicles
+
+    Components : contains App.js React components, which are Cell, Films, Invalid, People, Planets, Species, Starships, Vehicles
   
     Cell: contains view related items, including HomeScreen, Cell (links to other items from within a Card), RenderMultiple (renders multiple cards within each category) + crash test
   
