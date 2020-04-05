@@ -38,6 +38,12 @@ Information about:
 
     Utils: contains supplementary files such as Background, Header, Axios request, and Loader files
 
+To build with docker:
+
+    docker build -t react-webapp .
+    docker images
+    docker run -p 8000:80 react-webapp
+
 Please refer to swapi.co documentation for further information about the retrieved data: https://swapi.co/documentation
 This can be started using npm start (npm install -> npm start)
 Enjoy!
