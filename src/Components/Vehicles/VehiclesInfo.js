@@ -6,20 +6,20 @@ import getUrl from "../../Utils/swapiRequests.js";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import ListGroup from "react-bootstrap/ListGroup";
 import Cell from "../Cell";
-import propTypes from 'prop-types';
+import propTypes from "prop-types";
 
 class VehiclesInfo extends Component {
   constructor(props) {
     super(props);
     this.state = {
       id: props.match.params.id,
-      url: `https://swapi.co/api/vehicles/${props.match.params.id}/`,
-      information: {}
+      url: `https://swapi.dev/api/vehicles/${props.match.params.id}/`,
+      information: {},
     };
   }
 
   componentDidMount() {
-    return getUrl(this.state.url).then(response => {
+    return getUrl(this.state.url).then((response) => {
       this.setState({ information: response });
     });
   }
@@ -100,5 +100,5 @@ export default VehiclesInfo;
 VehiclesInfo.propTypes = {
   information: propTypes.object,
   id: propTypes.string,
-  url: propTypes.string
+  url: propTypes.string,
 };

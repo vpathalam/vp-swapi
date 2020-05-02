@@ -14,7 +14,7 @@ class StarshipsInfo extends Component {
     super(props);
     this.state = {
       id: props.match.params.id,
-      url: `https://swapi.co/api/starships/${props.match.params.id}/`,
+      url: `https://swapi.dev/api/starships/${props.match.params.id}/`,
       information: {}
     };
   }

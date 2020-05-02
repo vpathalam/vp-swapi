@@ -8,7 +8,7 @@ import propTypes from 'prop-types';
 const People = () => (
   <RenderMultiple
     name="People"
-    curr="https://swapi.co/api/people/"
+    curr="https://swapi.dev/api/people/"
     renderCard={person => (
       <Card border={"warning"} style={{ width: '18rem' }} key={person.url} bg={'dark'} text={'black'}>
         <Card.Body>

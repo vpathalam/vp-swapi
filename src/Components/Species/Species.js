@@ -9,7 +9,7 @@ import propTypes from 'prop-types';
 const Species = () => (
   <RenderMultiple
     name="Species"
-    curr="https://swapi.co/api/species/"
+    curr="https://swapi.dev/api/species/"
     renderCard={species => (
       <Card
         border={"warning"}

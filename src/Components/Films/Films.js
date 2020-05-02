@@ -8,7 +8,7 @@ import propTypes from "prop-types";
 const Films = () => (
   <RenderMultiple
     name="Films"
-    curr="https://swapi.co/api/films/"
+    curr="https://swapi.dev/api/films/"
     renderCard={film => (
       <Card
         border={"warning"}

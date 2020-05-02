@@ -14,7 +14,7 @@ class PlanetsInfo extends Component {
     super(props);
     this.state = {
       id: props.match.params.id,
-      url: `https://swapi.co/api/planets/${props.match.params.id}/`,
+      url: `https://swapi.dev/api/planets/${props.match.params.id}/`,
       information: {}
     };
   }

@@ -9,7 +9,7 @@ import propTypes from 'prop-types';
 const Starships = () => (
   <RenderMultiple
     name="Starships"
-    curr="https://swapi.co/api/starships/"
+    curr="https://swapi.dev/api/starships/"
     renderCard={starship => (
       <Card border={"warning"} style={{ width: '18rem' }} key={starship.url} bg={'dark'} text={'black'}>
         <Card.Body>

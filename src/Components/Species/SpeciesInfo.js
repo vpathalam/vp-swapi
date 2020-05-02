@@ -14,7 +14,7 @@ class SpeciesInfo extends Component {
     super(props);
     this.state = {
       id: props.match.params.id,
-      url: `https://swapi.co/api/species/${props.match.params.id}/`,
+      url: `https://swapi.dev/api/species/${props.match.params.id}/`,
       information: {}
     };
   }

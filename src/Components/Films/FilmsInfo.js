@@ -13,7 +13,7 @@ class FilmsInfo extends Component {
     super(props);
     this.state = {
       id: props.match.params.id,
-      url: `https://swapi.co/api/films/${props.match.params.id}/`,
+      url: `https://swapi.dev/api/films/${props.match.params.id}/`,
       information: {}
     };
   }
